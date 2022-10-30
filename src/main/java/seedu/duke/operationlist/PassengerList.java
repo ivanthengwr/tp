@@ -166,6 +166,7 @@ public class PassengerList extends OperationList {
         getPassengerName(passengerDetail);
         getFlightNumber(passengerDetail);
         getSeatNumber(passengerDetail);
+        getDepartureTime(passengerDetail);
         for (int i = 0; i < numOfPassengers; i++) {
             validatePassenger(i);
             if (isValidPassenger) {
